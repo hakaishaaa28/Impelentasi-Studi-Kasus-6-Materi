@@ -1,7 +1,8 @@
 # Studi Kasus Informatika: 6 Materi Pemateri
 
-Repositori ini berisi satu studi kasus berbasis kode untuk setiap materi pemateri. Semua dapat dijalankan
-dengan Python, memakai data sintetis atau dataset bawaan scikit-learn (tanpa unduhan).
+**Nama:** Kevin Stevino Arnovan
+
+**NPM:** G1A025121
 
 | # | Materi | Studi kasus | Folder |
 |---|---|---|---|
@@ -21,21 +22,3 @@ python run_all.py --fast     # versi cepat
 cd 03_machine_learning && python ml_pipeline.py
 ```
 Hasil (grafik, CSV, GeoJSON) ada di folder `output/` tiap studi kasus.
-
-## Batasan yang jujur
-- Data pada kasus 1, 4, 5, 6 sintetis, jadi angkanya untuk belajar konsep, bukan klaim performa dunia nyata.
-- Kasus 1 memakai ekstraktor fitur konvolusi tetap + Random Forest, bukan CNN yang dilatih penuh.
-- `05_hpc_paralel/mpi_ensemble.py` dan `job_ensemble.slurm` adalah templat klaster yang belum diuji.
-
-## Upload ke GitHub
-Buat repositori kosong di github.com (tanpa README/.gitignore), lalu di folder ini:
-```bash
-git init
-git add .
-git commit -m "Studi kasus 6 materi pemateri"
-git branch -M main
-git remote add origin https://github.com/USERNAME/NAMA-REPO.git
-git push -u origin main
-```
-Ganti `USERNAME` dan `NAMA-REPO`. Jika diminta password, gunakan Personal Access Token GitHub.
-Tambahkan nama dan NIM Anda di bagian atas README ini sebelum dikumpulkan.
