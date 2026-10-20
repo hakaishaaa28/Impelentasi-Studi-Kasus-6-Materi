@@ -1,0 +1,7 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+# opsional, hanya untuk 05_hpc_paralel/mpi_ensemble.py di klaster:
+# mpi4py
